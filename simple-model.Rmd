@@ -8,10 +8,16 @@ Strong patterns will hide subtler trends
 It’s important to understand that a fitted model is just the closest model from a family of models. That implies that you have the “best” model (according to some criteria); it doesn’t imply that you have a good model and it certainly doesn’t imply that the model is “true”
 
 ```{r}
-library(tidyverse)
+library(ggplot2)
+library(dplyr)
 
 library(modelr)
 options(na.action = na.warn)
+```
+
+
+```{r}
+head(sim1)
 ```
 
 ```{r}
@@ -29,7 +35,9 @@ models <- tibble(
   a2 = runif(250, -5, 5)
 )
 
+head(models)
 ```
+
 
 ```{r}
 ggplot(sim1, aes(x, y)) + 
