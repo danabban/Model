@@ -1,0 +1,3 @@
+"0","ggplot(sim1, aes(x, y)) + "
+"0","  geom_abline(aes(intercept = a1, slope = a2), data = models, alpha = 1/4) +"
+"0","  geom_point() "

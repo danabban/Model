@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1542952860925.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3685259564",
+    "id" : "C49BE51A",
+    "lastKnownWriteTime" : 1542955767,
+    "last_content_update" : 1542955767311,
+    "path" : "C:/Users/Abban/Desktop/Model/simple-model.Rmd",
+    "project_path" : "simple-model.Rmd",
+    "properties" : {
+        "chunk_output_type" : "inline",
+        "cursorPosition" : "84,3",
+        "scrollLine" : "69",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
